@@ -1,0 +1,37 @@
+	* Log Encoding changed to UTF-8
+
+2011-04-19  
+
+	* FIXED: Page Error when getting ICQ NickNames by UIN
+
+2011-04-01  
+
+	* FIXED: -m encoding option now affects IRC analyzer
+	* ADDED: vkontakte.ru analyzer
+	* ADDED: mamba analyzer
+
+2011-01-24  
+
+	* FIXED: incoming messages in the mail.ru agent
+
+2011-01-15  
+
+	* FIXED: install on Vista x64
+	* ADDED: IPv6 analyzer
+
+2010-12-29  
+
+	* FIXED: bug with port numbers in SnifMon
+	* ADDED: support of new Live Messenger (MSN) protocol
+	* ADDED: FTP file capture
+
+2010-07-04  
+
+	* FIXED: reading NetMon files
+	* Compatibility with FreeBSD
+
+2010-05-17  
+
+	* FIXED: non-loading packet.dll on XP
+	* FIXED: captureing emails, beginning with dot
+

@@ -1,0 +1,21 @@
+Installation Instructions
+*************************
+
+./configure && make
+[ optionally: sudo make install  ]
+
+
+On FreeBSD:
+	./configure && gmake
+
+	if your default compiler older than 4.8 then:
+		./configure CXX=g++48
+
+	if only gcc 4.5 available then:
+		./configure CXX=g++45 && gmake CXXFLAGS="-march=i686 -mcrc32"	
+
+
+
+
+Root permissions required to run ./icqdump
+

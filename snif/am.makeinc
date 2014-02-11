@@ -1,0 +1,148 @@
+libext_FILES = 						\
+	el/ext.h						\
+	el/libext.h						\
+	el/xml.h						\
+	el/inc/default-defs.h			\
+	el/inc/ext_config.h				\
+	el/inc/extver.h					\
+	el/inc/inc_configs.h			\
+	manufacturer.h					\
+									\
+	el/libext/afterstl.h			\
+	el/libext/c-old.h				\
+	el/libext/cpp-old.h				\
+	el/libext/datetime.h			\
+	el/libext/ext-app.h				\
+	el/libext/ext-base.h			\
+	el/libext/ext-blob.h			\
+	el/libext/ext-core.h			\
+	el/libext/ext-safehandle.h		\
+	el/libext/ext-sync.h			\
+	el/libext/ext-cpp.h				\
+	el/libext/ext-cpu.h				\
+	el/libext/ext-fw.h				\
+	el/libext/ext-regex.h			\
+	el/libext/ext-hash.h			\
+	el/libext/ext-http.h			\
+	el/libext/ext-lru.h				\
+	el/libext/ext-macro.h			\
+	el/libext/ext-meta.h			\
+	el/libext/ext-net.h				\
+	el/libext/ext-os.h				\
+	el/libext/ext-protocols.h		\
+	el/libext/ext-str.h				\
+	el/libext/ext-stream.h			\
+	el/libext/ext-string.h			\
+	el/libext/ext-text.cpp			\
+	el/libext/ext-thread.h			\
+	el/libext/ext-zlib.cpp			\
+	el/libext/interlocked.h			\
+	el/libext/exthelpers.h			\
+	el/libext/facilities.h			\
+	el/libext/gcc-intrinsic.h		\
+	el/libext/ext-protocols.cpp		\
+	el/libext/ext-handlers.cpp		\
+	el/libext/ext-encoding.cpp		\
+	el/libext/threader.cpp			\
+	el/libext/ext-file.cpp			\
+	el/libext/ext-fw.cpp			\
+	el/libext/datetime.cpp			\
+	el/libext/ext-base.cpp			\
+	el/libext/ext-os.cpp			\
+	el/libext/ext-app.cpp			\
+	el/libext/ext-string.cpp		\
+	el/libext/ext-blob.cpp			\
+	el/libext/ext-stream.cpp		\
+	el/libext/ext-core.cpp			\
+	el/libext/ext-ip-address.cpp	\
+	el/libext/ext-net.cpp			\
+	el/libext/http.cpp				\
+	el/libext/stack-trace.cpp		\
+	el/libext/binary-reader-writer.h	\
+	el/libext/binary-reader-writer.cpp	\
+	el/libext/ext-posix-win.h		\
+	el/libext/murmurhash.cpp 		\
+	el/libext/vc-warnings.h			\
+									\
+	el/xml/xml.cpp					\
+	el/xml/xml-reader.cpp			\
+	el/xml/xml-writer.cpp			\
+									\
+	el/db/db-itf.h					\
+	el/db/ext-sqlite.cpp			\
+	el/db/ext-sqlite.h				\
+	                                \
+	el/stl/regex.cpp				\
+	el/stl/regex					\
+	el/stl/dynamic_bitset			\
+	el/stl/dynamic_bitset.cpp		\
+	el/stl/mutex					\
+	el/stl/thread.cpp				\
+	el/stl/thread
+
+snif_FILES =						\
+	inc/initguid.h					\
+	inc/guiddef.h					\
+	inc/sniffermsg.h				\
+	inc/file_config.h				\
+	inc/params.h					\
+	inc/pcap-snif-eng.h             \
+	inc/pppex.h						\
+	inc/prj_config.h				\
+	inc/res.h			 			\
+	inc/snif.h			 			\
+	inc/snif-config.h	 			\
+	inc/snif-packet-imp.h 			\
+	inc/snifferstructs.h 			\
+	inc/sniffeng.h 					\
+	inc/standard-plugin.h 			\
+	inc/tcpapi.h					\
+	inc/tcp-itf.h					\
+	inc/vjc.h						\
+									\
+	snif/arp.cpp					\
+	snif/ethernet.cpp				\
+	snif/gre.h						\
+	snif/gre.cpp					\
+	snif/icmp.cpp					\
+	snif/ip.cpp						\
+	snif/ip6.cpp					\
+	snif/ipx.cpp					\
+	snif/mac.cpp					\
+	snif/netbeui.cpp 				\
+	snif/packetproviders.cpp 		\
+	snif/pcap-snif-eng.cpp 			\
+	snif/ppp.cpp					\
+	snif/proto-eng.cpp				\
+	snif/resource.h		 			\
+	snif/snif.cpp					\
+	snif/standardplugin.cpp			\
+	snif/tcp.cpp					\
+	snif/tcpapi.cpp					\
+	snif/tokenring.cpp				\
+	snif/udp.cpp					\
+									\
+	msgan/db-mgr.cpp				\
+	msgan/email.cpp					\
+	msgan/ftp.cpp					\
+	msgan/a-http.cpp					\
+	msgan/icq.cpp					\
+	msgan/icq.h						\
+	msgan/irc.cpp					\
+	msgan/icqdump.cpp				\
+	msgan/msgan.cpp					\
+	msgan/msgan.h					\
+	msgan/msn.cpp					\
+	msgan/params.h					\
+	msgan/packetwriter.h			\
+	msgan/proxyanalyzer.cpp			\
+	msgan/search.cpp				\
+	msgan/usermanager.cpp			
+
+
+
+EXTRA_icqdump_SOURCES =				\
+	am.makeinc 						\
+	packet/pppex.cpp           		\
+	packet/vj_decompression.cpp  
+	
